@@ -1,1 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+html {
+  box-sizing: border-box;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+main {
+  max-width: 375px;
+  padding: 1rem;
+  border: 1px solid black;
+}
+img {
+  width: 100%;
+}
+h1 {
+  text-align: center;
+}
+h4 {
+  padding: 1rem 0;
+  border-bottom: 1px solid black;
+  margin-bottom: 1rem;
+}
+.arrow {
+  width: 15px;
+  height: 10px;
+}
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* toogle hidden */
