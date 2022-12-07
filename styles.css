@@ -13,19 +13,21 @@ html {
 }
 
 body {
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
 }
 main {
-  max-width: 375px;
+  /* min-width: 400px; */
+  max-width: 400px;
   padding: 1rem;
   border: 1px solid black;
+  margin: 0 auto;
 }
 img {
   width: 100%;
 }
 h1 {
   text-align: center;
+  color: black;
 }
 h4 {
   padding: 1rem 0;
@@ -42,3 +44,17 @@ h4 {
   align-items: center;
 }
 /* toogle hidden */
+.hidden {
+  display: none;
+  /* overflow: hidden;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out; */
+}
+.rotate-icon {
+  transform: rotate(180deg);
+}
+
+.question-container {
+  transition: 0.4s;
+}
