@@ -11,8 +11,3 @@ questionContainers.forEach((item) =>
     console.log(this.children[0]);
   })
 );
-
-// function toggleFAQ(index) {
-//   //   questionContainers.style.backgroundColor = 'red';
-//   console.log('test');
-// }
