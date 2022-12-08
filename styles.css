@@ -30,24 +30,32 @@ main {
   margin: 0 auto;
   margin-top: 150px;
   /* border: 1px solid black; */
-  /* height: 100%; */
+  height: 100%;
   position: relative;
+}
+.img-container {
+  position: relative;
+  width: 100%;
 }
 
 .mobile-image {
   width: 70%;
   display: block;
   position: absolute;
-  top: -21%;
-  right: 15%;
+
+  top: -110px;
+  left: 15%;
 }
 .bg-pattern {
-  width: 75%;
-  position: absolute;
-  right: 13%;
+  width: 70%;
+  display: block;
   z-index: 55555;
+  position: absolute;
+  left: 15%;
+  top: 5px;
 }
 .faq-container {
+  /* margin-top: -50px; */
   background: white;
   box-shadow: 0rem 3.8462rem 3.8462rem -1.5385rem rgba(53, 18, 122, 0.497159);
   border-radius: 23px;
