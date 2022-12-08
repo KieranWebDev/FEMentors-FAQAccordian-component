@@ -3,6 +3,7 @@
 html {
   box-sizing: border-box;
   font-family: 'Kumbh Sans', sans-serif;
+  font-size: 14px;
 }
 *,
 *::before,
@@ -13,37 +14,83 @@ html {
 }
 
 body {
-  margin: 0 auto;
+  background: linear-gradient(180deg, #b068e9 0%, #6463e7 100%);
+  /* height: 100%; */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  height: 100vh;
 }
 main {
-  /* min-width: 400px; */
-  max-width: 400px;
-  padding: 1rem;
-  border: 1px solid black;
+  /* min-width: 30.7692rem; */
+  max-width: 375px;
+  min-width: 375px;
+  padding: 0 13px;
   margin: 0 auto;
+  margin-top: 150px;
+  /* border: 1px solid black; */
+  /* height: 100%; */
+  position: relative;
 }
-img {
-  width: 100%;
+
+.mobile-image {
+  width: 70%;
+  display: block;
+  position: absolute;
+  top: -21%;
+  right: 15%;
 }
-h1 {
+.bg-pattern {
+  width: 75%;
+  position: absolute;
+  right: 13%;
+  z-index: 55555;
+}
+.faq-container {
+  background: white;
+  box-shadow: 0rem 3.8462rem 3.8462rem -1.5385rem rgba(53, 18, 122, 0.497159);
+  border-radius: 23px;
+  padding: 0 1.5rem 3.6923rem 1.5rem;
+}
+.faq-container h1 {
+  padding-top: 132px;
   text-align: center;
   color: black;
+  margin-bottom: 2.3077rem;
 }
-h4 {
-  padding: 1rem 0;
-  border-bottom: 1px solid black;
-  margin-bottom: 1rem;
+.question-container {
+  padding: 1.5385rem 0;
+  border-bottom: 0.0769rem solid#E8E8EA;
 }
-.arrow {
-  width: 15px;
-  height: 10px;
+.question-container:hover {
+  cursor: pointer;
+}
+.question-container:hover h4 {
+  color: orange;
 }
 .question {
+  /* margin-bottom: 13px; */
+  font-weight: 400;
+  font-size: 1rem;
+  color: #4b4c5f;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-/* toogle hidden */
+.question .arrow {
+  width: 12.1875px;
+  height: 8.125px;
+}
+
+.answer {
+  font-size: 1rem;
+  line-height: 14.625px;
+  color: #787887;
+  margin-top: 0.9231rem;
+  line-height: 1.3846rem;
+}
+/* javascript toggles */
 .hidden {
   display: none;
   /* overflow: hidden;
@@ -54,7 +101,7 @@ h4 {
 .rotate-icon {
   transform: rotate(180deg);
 }
-
-.question-container {
-  transition: 0.4s;
+.h4-bold {
+  font-weight: 700;
+  /* background-color: red; */
 }
